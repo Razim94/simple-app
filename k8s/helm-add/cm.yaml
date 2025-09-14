@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: demo-config
+  name: helm-nginx-config-map
   annotations:
     argocd.argoproj.io/sync-wave: "0"
 data:
