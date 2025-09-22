@@ -3,3 +3,5 @@ service:
   type: NodePort
   ports:
     http: 80
+commonAnnotations:
+  argocd.argoproj.io/sync-wave: "1"
